@@ -13,3 +13,6 @@
 	6.发现没有权限需要公钥，解决：
 		ssh-keygen -t rsa -C  "绑定的github邮箱" （一路回车）会在c盘某个地方创建一个pub文件里面有ssh密钥  然后添加到 github 设置选项 ssh里
 
+	7.如果在push 的时候报错
+		! [rejected] master -> master (non-fast forward)
+		git pull origin master --allow-unrelated-histories //把远程仓库和本地同步，消除差异
