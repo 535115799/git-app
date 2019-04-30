@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"list .",[1],"_li{ border-bottom: #888888 ",[0,1]," solid; margin-bottom: ",[0,28],"; list-style: none; color: #3C3E49; white-space: nowrap; overflow: hidden; -o-text-overflow: ellipsis; text-overflow: ellipsis; }\n.",[1],"list .",[1],"_li .",[1],"_img{ margin-right: ",[0,20],"; vertical-align: middle; }\n",],undefined,{path:"./pages/history/history.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/history/history.wxml') } }));

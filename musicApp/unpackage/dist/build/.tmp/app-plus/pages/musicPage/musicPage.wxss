@@ -1,0 +1,27 @@
+
+.bgBody{
+	width: 100vw;
+	height: 83%;
+	text-align: center;
+	background-color: rgba(24,26,29,.9);
+}
+uni-page-body{
+	height: 100%;
+}
+.m-body{
+	text-align: center;
+	height: 100%;
+}
+.m-body ._li{
+	list-style: none;
+}
+.slideBt{
+	width: 100vw;
+	height: 100rpx;
+	position: fixed;
+	bottom: 100rpx;
+}
+.slideBt view{
+	display: inline-block;
+}
+

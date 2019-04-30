@@ -1,0 +1,17 @@
+{
+  "usingComponents": {},
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "back",
+        "float": "left"
+      }
+    ],
+    "searchInput": {
+      "autoFocus": true,
+      "align": "left",
+      "placeholder": "大家都在搜 ...",
+      "borderRadius": "5px"
+    }
+  }
+}

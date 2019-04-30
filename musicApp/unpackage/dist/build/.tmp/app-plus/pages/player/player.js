@@ -1,0 +1,1 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/player/player"],{"83c3":function(e,a,o){"use strict";o("2443");var c=l(o("b0ce")),n=l(o("08cb"));function l(e){return e&&e.__esModule?e:{default:e}}Page((0,c.default)(n.default))}},[["83c3","common/runtime","common/vendor"]]]);

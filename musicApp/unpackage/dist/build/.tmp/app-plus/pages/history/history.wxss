@@ -1,0 +1,16 @@
+
+.list ._li{
+	border-bottom: #888888 1rpx solid;
+	margin-bottom: 28rpx;
+	list-style: none;
+	color: #3C3E49;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+.list ._li ._img{
+	margin-right: 20rpx;
+	vertical-align: middle;
+}
+

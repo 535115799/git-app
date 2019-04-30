@@ -1,0 +1,19 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "山寨网易云音乐",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "none",
+        "text": "≡",
+        "float": "left",
+        "fontWeight": "300"
+      },
+      {
+        "type": "none",
+        "text": "",
+        "fontSrc": "./static/uni.ttf"
+      }
+    ]
+  }
+}
