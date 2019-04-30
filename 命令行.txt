@@ -5,3 +5,11 @@
 	2.git add .  提交到暂存区
 
 	3.git commit -m “提交到本地分支 / 这写提交信息”
+
+	4.git remote add origin   SSH 方式   关联远程代码仓库
+
+	5.git push origin master  推送到远程代码仓库
+
+	6.发现没有权限需要公钥，解决：
+		ssh-keygen -t rsa -C  "绑定的github邮箱" （一路回车）会在c盘某个地方创建一个pub文件里面有ssh密钥  然后添加到 github 设置选项 ssh里
+
