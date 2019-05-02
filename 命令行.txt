@@ -6,7 +6,7 @@
 
 	3.git commit -m “提交到本地分支 / 这写提交信息”
 
-	4.git remote add origin   SSH 方式   关联远程代码仓库
+	4.git remote add origin   SSH地址   关联远程代码仓库
 
 	5.git push origin master  推送到远程代码仓库
 
@@ -19,4 +19,10 @@
 
 	8. 大概流程 init- remote -pull -add -commit - push
 
-	9.
+	9.git clone  SSH地址  克隆远程仓库
+
+	10.git branch haha  创建分支       git branch  查看所有分支   git checkout XX 切换分支 
+
+	11. git merge xx   整合分支  (在master主分支上整合)  git branch -d xx   删除子分支	 
+
+	12.git reset --hard  xx （commit码） 回退某次commit
