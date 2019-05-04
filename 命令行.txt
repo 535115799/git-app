@@ -1,28 +1,28 @@
 
 
-	1. git init  ´´½¨±¾µØ¿â
+	1. git init  åˆ›å»ºæœ¬åœ°åº“
 
-	2.git add .  Ìá½»µ½Ôİ´æÇø
+	2.git add .  æäº¤åˆ°æš‚å­˜åŒº
 
-	3.git commit -m ¡°Ìá½»µ½±¾µØ·ÖÖ§ / ÕâĞ´Ìá½»ĞÅÏ¢¡±
+	3.git commit -m â€œæäº¤åˆ°æœ¬åœ°åˆ†æ”¯ / è¿™å†™æäº¤ä¿¡æ¯â€
 
-	4.git remote add origin   SSHµØÖ·   ¹ØÁªÔ¶³Ì´úÂë²Ö¿â
+	4.git remote add origin   SSHåœ°å€   å…³è”è¿œç¨‹ä»£ç ä»“åº“
 
-	5.git push origin master  ÍÆËÍµ½Ô¶³Ì´úÂë²Ö¿â
+	5.git push origin master  æ¨é€åˆ°è¿œç¨‹ä»£ç ä»“åº“
 
-	6.·¢ÏÖÃ»ÓĞÈ¨ÏŞĞèÒª¹«Ô¿£¬½â¾ö£º
-		ssh-keygen -t rsa -C  "°ó¶¨µÄgithubÓÊÏä" £¨Ò»Â·»Ø³µ£©»áÔÚcÅÌÄ³¸öµØ·½´´½¨Ò»¸öpubÎÄ¼şÀïÃæÓĞssh¹«Ô¿  È»ºóÌí¼Óµ½ github ÉèÖÃÑ¡Ïî sshÀï
+	6.å‘ç°æ²¡æœ‰æƒé™éœ€è¦å…¬é’¥ï¼Œè§£å†³ï¼š
+		ssh-keygen -t rsa -C  "ç»‘å®šçš„githubé‚®ç®±" ï¼ˆä¸€è·¯å›è½¦ï¼‰ä¼šåœ¨cç›˜æŸä¸ªåœ°æ–¹åˆ›å»ºä¸€ä¸ªpubæ–‡ä»¶é‡Œé¢æœ‰sshå…¬é’¥  ç„¶åæ·»åŠ åˆ° github è®¾ç½®é€‰é¡¹ sshé‡Œ
 
-	7.Èç¹ûÔÚpush µÄÊ±ºò±¨´í
+	7.å¦‚æœåœ¨push çš„æ—¶å€™æŠ¥é”™
 		! [rejected] master -> master (non-fast forward)
-		½â¾ö£ºgit pull origin master --allow-unrelated-histories //°ÑÔ¶³Ì²Ö¿âºÍ±¾µØÍ¬²½£¬Ïû³ı²îÒì
+		è§£å†³ï¼šgit pull origin master --allow-unrelated-histories //æŠŠè¿œç¨‹ä»“åº“å’Œæœ¬åœ°åŒæ­¥ï¼Œæ¶ˆé™¤å·®å¼‚
 
-	8. ´ó¸ÅÁ÷³Ì init- remote -pull -add -commit - push
+	8. å¤§æ¦‚æµç¨‹ init- remote -pull -add -commit - push
 
-	9.git clone  SSHµØÖ·  ¿ËÂ¡Ô¶³Ì²Ö¿â
+	9.git clone  SSHåœ°å€  å…‹éš†è¿œç¨‹ä»“åº“  (åªè¦æ˜¯å…¬å¼€åº“éƒ½å¯ä»¥å…‹éš†ä¸éœ€è¦æƒé™)
 
-	10.git branch haha  ´´½¨·ÖÖ§       git branch  ²é¿´ËùÓĞ·ÖÖ§   git checkout XX ÇĞ»»·ÖÖ§ 
+	10.git branch haha  åˆ›å»ºåˆ†æ”¯       git branch  æŸ¥çœ‹æ‰€æœ‰åˆ†æ”¯   git checkout XX åˆ‡æ¢åˆ†æ”¯ 
 
-	11. git merge xx   ÕûºÏ·ÖÖ§  (ÔÚmasterÖ÷·ÖÖ§ÉÏÕûºÏ)  git branch -d xx   É¾³ı×Ó·ÖÖ§	 
+	11. git merge xx   æ•´åˆåˆ†æ”¯  (åœ¨masterä¸»åˆ†æ”¯ä¸Šæ•´åˆ)  git branch -d xx   åˆ é™¤å­åˆ†æ”¯	 
 
-	12.git reset --hard  xx £¨commitÂë£© »ØÍËÄ³´Îcommit
+	12.git reset --hard  xx ï¼ˆcommitç ï¼‰ å›é€€æŸæ¬¡commit
